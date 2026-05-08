@@ -101,16 +101,4 @@ summarizer_pro/
 | Bengali  | bn   |
 | Japanese | ja   |
 
-Translation uses `deep-translator` (Google Translate backend) — free, no API key needed.
 
----
-
-## ⚠️ Common Issues
-
-| Problem | Fix |
-|---------|-----|
-| `ModuleNotFoundError` | Run `pip install -r requirements.txt` inside venv |
-| NLTK errors | Run the NLTK download command in step 5 |
-| PDF text empty | Install PyMuPDF: `pip install PyMuPDF` |
-| DOCX not working | Install: `pip install python-docx` |
-| Translation fails | Check internet connection (uses Google Translate) |
